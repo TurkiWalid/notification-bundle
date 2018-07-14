@@ -27,7 +27,7 @@
         xhttp.open("POST", element.href, true);
         xhttp.send();
         //alert(element.href);
-    }
+    };
 
     function markAllAsSeen(e) {
         var xhttp = new XMLHttpRequest();
@@ -56,7 +56,7 @@
         };
         xhttp.open("POST", element.href, true);
         xhttp.send();
-    }
+    };
 
     // mark as seen button handler
     var btns = document.getElementsByClassName('ajax-notification');
